@@ -1,115 +1,139 @@
 main {
-    display: flex;
-    justify-content: center;
-    border: solid;
-    height: 2120px;
-    background-color: #F6F7F9;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  height: 2120px;
+  background-color: #f6f7f9;
+  font-family: "Plus Jakarta Sans", sans-serif;
 
-    #container {
-        border: solid red;
-        width: 90%;
+  #container {
+    border: solid red;
+    width: 1400px;
 
-        .car-boxs { 
-            display: flex;
-            justify-content: space-between;
+    .car-boxs {
+      display: flex;
+      justify-content: space-between;
+      border: solid;
+
+      .one-box {
+        width: 640px;
+        height: 360px;
+        background-color: #54a6ff;
+        border-radius: 10px;
+        position: relative;
+
+        .container-box {
+          overflow: hidden;
+          margin: 20px 0 0 20px;
+          width: 50%;
+
+          h1 {
+            color: white;
+            line-height: 48px;
+            margin-bottom: 20px;
+          }
+
+          p {
+            color: white;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -2%;
+            margin-bottom: 20px;
+          }
+
+          button {
+            background-color: #3563e9;
+            width: 120px;
+            height: 44px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            letter-spacing: -2%;
+          }
+
+          .car {
             border: solid;
+            position: absolute;
+            bottom: 10px;
+            right: 97px;
+          }
+        }
+      }
 
-            .one-box {
-                // display: flex;
-                // justify-content: center;
-                // align-items: center;
-                width: 640px;
-                height: 360px;
-                background-color: #54A6FF;
-                border-radius: 10px;
-                position: relative;
+      .two-box {
+        width: 640px;
+        height: 360px;
+        background-color: #3563e9;
+        border-radius: 10px;
+        position: relative;
 
-                .container-box {
-                    overflow: hidden;
-                    margin: 20px 0 0 20px;
-                   // width: 50%;
-                    
+        .container-box {
+          margin: 20px 0 0 20px;
+          width: 50%;
 
-                    h1 {
-                        color: white;
-                        line-height: 48px;
-                        margin-bottom: 20px;
-                    }
+          h1 {
+            color: white;
+            line-height: 48px;
+            margin-bottom: 20px;
+          }
 
-                    p {
-                        color: white;
-                        font-size: 16px;
-                        line-height: 24px;
-                        letter-spacing: -2%;
-                        margin-bottom: 20px;
-                    }
+          p {
+            color: white;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -2%;
+            margin-bottom: 20px;
+          }
 
-                    button {
-                        background-color: #3563E9;
-                        width: 120px;
-                        height: 44px;
-                        border: none;
-                        border-radius: 4px;
-                        color: white;
-                        font-size: 16px;
-                        letter-spacing: -2%;
-                    }
+          button {
+            background-color: #54a6ff;
+            width: 120px;
+            height: 44px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            letter-spacing: -2%;
+          }
 
-                    .car {
-                        border: solid;
-                        position: absolute;
-                        bottom: 10px;
-                        right: 97px;
-                    }
-                }
-            }
+          .car {
+            position: absolute;
+            bottom: 10px;
+            right: 97px;
+          }
+        }
+      }
+    }
 
-            .two-box {
-                width: 640px;
-                height: 360px;
-                background-color: #3563E9;
-                border-radius: 10px;
-                position: relative;
+    .pick-drop{
+        border: solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-                .container-box {
-                    margin: 20px 0 0 20px;
-                    width: 50%;
+        .pick{
+            width: 582px;
+            height: 136px;
+            border-radius: 10px;
+            border: solid;
+            display: flex;
+            flex-direction: column;
 
-                    h1 {
-                        color: white;
-                        line-height: 48px;
-                        margin-bottom: 20px;
-                    }
+            .pickup{
 
-                    p {
-                        color: white;
-                        font-size: 16px;
-                        line-height: 24px;
-                        letter-spacing: -2%;
-                        margin-bottom: 20px;
-                    }
-
-                    button {
-                        background-color: #54A6FF;
-                        width: 120px;
-                        height: 44px;
-                        border: none;
-                        border-radius: 4px;
-                        color: white;
-                        font-size: 16px;
-                        letter-spacing: -2%;
-                    }
-
-                    .car {
-                        position: absolute;
-                        bottom: 10px;
-                        right: 97px;
-                    }
-
-                }
             }
         }
+        .select{
+            border: solid red;
+            display: flex;
+            justify-content: space-between;
 
+            div{
+                border: solid;
+                width: 100%;
+            }
+        }
     }
+  }
 }

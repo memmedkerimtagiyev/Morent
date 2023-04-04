@@ -85,6 +85,125 @@ nav #continer .icons .img .pointer {
   right: 0;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  height: 2120px;
+  background-color: #f6f7f9;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+main #container {
+  border: solid red;
+  width: 1400px;
+}
+main #container .car-boxs {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+}
+main #container .car-boxs .one-box {
+  width: 640px;
+  height: 360px;
+  background-color: #54a6ff;
+  border-radius: 10px;
+  position: relative;
+}
+main #container .car-boxs .one-box .container-box {
+  overflow: hidden;
+  margin: 20px 0 0 20px;
+  width: 50%;
+}
+main #container .car-boxs .one-box .container-box h1 {
+  color: white;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .one-box .container-box p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .one-box .container-box button {
+  background-color: #3563e9;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: -2%;
+}
+main #container .car-boxs .one-box .container-box .car {
+  border: solid;
+  position: absolute;
+  bottom: 10px;
+  right: 97px;
+}
+main #container .car-boxs .two-box {
+  width: 640px;
+  height: 360px;
+  background-color: #3563e9;
+  border-radius: 10px;
+  position: relative;
+}
+main #container .car-boxs .two-box .container-box {
+  margin: 20px 0 0 20px;
+  width: 50%;
+}
+main #container .car-boxs .two-box .container-box h1 {
+  color: white;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .two-box .container-box p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .two-box .container-box button {
+  background-color: #54a6ff;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: -2%;
+}
+main #container .car-boxs .two-box .container-box .car {
+  position: absolute;
+  bottom: 10px;
+  right: 97px;
+}
+main #container .pick-drop {
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #container .pick-drop .pick {
+  width: 582px;
+  height: 136px;
+  border-radius: 10px;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+}
+main #container .pick-drop .select {
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+}
+main #container .pick-drop .select div {
+  border: solid;
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   nav #continer {
     display: flex;
@@ -118,98 +237,4 @@ nav #continer .icons .img .pointer {
   main #container .car-boxs .two-box {
     display: none;
   }
-}
-main {
-  display: flex;
-  justify-content: center;
-  border: solid;
-  height: 2120px;
-  background-color: #F6F7F9;
-  font-family: "Plus Jakarta Sans", sans-serif;
-}
-main #container {
-  border: solid red;
-  width: 90%;
-}
-main #container .car-boxs {
-  display: flex;
-  justify-content: space-between;
-  border: solid;
-}
-main #container .car-boxs .one-box {
-  width: 640px;
-  height: 360px;
-  background-color: #54A6FF;
-  border-radius: 10px;
-  position: relative;
-}
-main #container .car-boxs .one-box .container-box {
-  overflow: hidden;
-  margin: 20px 0 0 20px;
-}
-main #container .car-boxs .one-box .container-box h1 {
-  color: white;
-  line-height: 48px;
-  margin-bottom: 20px;
-}
-main #container .car-boxs .one-box .container-box p {
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -2%;
-  margin-bottom: 20px;
-}
-main #container .car-boxs .one-box .container-box button {
-  background-color: #3563E9;
-  width: 120px;
-  height: 44px;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  font-size: 16px;
-  letter-spacing: -2%;
-}
-main #container .car-boxs .one-box .container-box .car {
-  border: solid;
-  position: absolute;
-  bottom: 10px;
-  right: 97px;
-}
-main #container .car-boxs .two-box {
-  width: 640px;
-  height: 360px;
-  background-color: #3563E9;
-  border-radius: 10px;
-  position: relative;
-}
-main #container .car-boxs .two-box .container-box {
-  margin: 20px 0 0 20px;
-  width: 50%;
-}
-main #container .car-boxs .two-box .container-box h1 {
-  color: white;
-  line-height: 48px;
-  margin-bottom: 20px;
-}
-main #container .car-boxs .two-box .container-box p {
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -2%;
-  margin-bottom: 20px;
-}
-main #container .car-boxs .two-box .container-box button {
-  background-color: #54A6FF;
-  width: 120px;
-  height: 44px;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  font-size: 16px;
-  letter-spacing: -2%;
-}
-main #container .car-boxs .two-box .container-box .car {
-  position: absolute;
-  bottom: 10px;
-  right: 97px;
 }/*# sourceMappingURL=main.css.map */
