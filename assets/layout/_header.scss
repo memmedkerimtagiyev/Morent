@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav {
+  //  border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 124px;
+
+    #continer {
+       // border: solid red;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .morent {
+          //  border: solid;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1 {
+                color: #3563E9;
+            }
+
+            .photo {
+                display: none;
+            }
+            .search{
+                display: flex;
+                align-items: center;
+           //     border: solid blue;
+                position: relative;
+                input{
+                    width: 492px;
+                    height: 44px;
+                    border-radius: 70px;
+                }
+                .search-icon{
+                    position: absolute;
+                    left: 20px;
+                }
+                .bar-icon{
+                    position: absolute;
+                    right: 25px;
+                }
+            }
+        }
+
+        .search-responsiv{
+            width: 100%;
+          //  border: solid red;
+            display: none;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            
+            input{
+                width: 263px;
+                height: 48px;
+                border-radius: 10px;
+            }
+            .search-icon{
+                position: absolute;
+                left: 10px;
+            }
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                width: 44px;
+                height: 44px;
+                border: solid rgba(195, 212, 233, 0.4);
+                border-radius: 50%;
+                position: relative;
+
+                .pointer {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+
+            }
+
+        }
+    }
+}

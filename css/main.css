@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 124px;
+}
+nav #continer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav #continer .morent {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav #continer .morent h1 {
+  color: #3563E9;
+}
+nav #continer .morent .photo {
+  display: none;
+}
+nav #continer .morent .search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+nav #continer .morent .search input {
+  width: 492px;
+  height: 44px;
+  border-radius: 70px;
+}
+nav #continer .morent .search .search-icon {
+  position: absolute;
+  left: 20px;
+}
+nav #continer .morent .search .bar-icon {
+  position: absolute;
+  right: 25px;
+}
+nav #continer .search-responsiv {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+nav #continer .search-responsiv input {
+  width: 263px;
+  height: 48px;
+  border-radius: 10px;
+}
+nav #continer .search-responsiv .search-icon {
+  position: absolute;
+  left: 10px;
+}
+nav #continer .icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav #continer .icons .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 44px;
+  height: 44px;
+  border: solid rgba(195, 212, 233, 0.4);
+  border-radius: 50%;
+  position: relative;
+}
+nav #continer .icons .img .pointer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  nav #continer {
+    display: flex;
+    flex-direction: column;
+  }
+  nav #continer .morent {
+    width: 100%;
+  }
+  nav #continer .morent .photo {
+    display: inline-block;
+  }
+  nav #continer .morent .search {
+    display: none;
+  }
+  nav #continer .search-responsiv {
+    display: flex;
+  }
+  nav #continer .icons {
+    display: none;
+  }
+  main #container .car-boxs .one-box .container-box {
+    width: 90%;
+    border: solid;
+  }
+  main #container .car-boxs .one-box .container-box .car {
+    width: 196px;
+    height: 56px;
+    bottom: 4px;
+    right: 78px;
+  }
+  main #container .car-boxs .two-box {
+    display: none;
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  height: 2120px;
+  background-color: #F6F7F9;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+main #container {
+  border: solid red;
+  width: 90%;
+}
+main #container .car-boxs {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+}
+main #container .car-boxs .one-box {
+  width: 640px;
+  height: 360px;
+  background-color: #54A6FF;
+  border-radius: 10px;
+  position: relative;
+}
+main #container .car-boxs .one-box .container-box {
+  overflow: hidden;
+  margin: 20px 0 0 20px;
+}
+main #container .car-boxs .one-box .container-box h1 {
+  color: white;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .one-box .container-box p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .one-box .container-box button {
+  background-color: #3563E9;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: -2%;
+}
+main #container .car-boxs .one-box .container-box .car {
+  border: solid;
+  position: absolute;
+  bottom: 10px;
+  right: 97px;
+}
+main #container .car-boxs .two-box {
+  width: 640px;
+  height: 360px;
+  background-color: #3563E9;
+  border-radius: 10px;
+  position: relative;
+}
+main #container .car-boxs .two-box .container-box {
+  margin: 20px 0 0 20px;
+  width: 50%;
+}
+main #container .car-boxs .two-box .container-box h1 {
+  color: white;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .two-box .container-box p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+}
+main #container .car-boxs .two-box .container-box button {
+  background-color: #54A6FF;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: -2%;
+}
+main #container .car-boxs .two-box .container-box .car {
+  position: absolute;
+  bottom: 10px;
+  right: 97px;
+}/*# sourceMappingURL=main.css.map */

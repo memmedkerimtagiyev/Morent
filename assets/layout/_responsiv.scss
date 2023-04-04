@@ -1,0 +1,54 @@
+@media screen and (max-width:900px) {
+
+    nav {
+        #continer {
+            display: flex;
+            flex-direction: column;
+
+            .morent {
+                width: 100%;
+
+                .photo {
+                    display: inline-block;
+                }
+
+                .search {
+                    display: none;
+                }
+            }
+
+            .search-responsiv {
+                display: flex;
+            }
+
+            .icons {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        #container {
+            .car-boxs {
+                .one-box {
+                    .container-box{
+                     width: 90%;
+                        border: solid;
+
+                        .car{
+                            width: 196px;
+                            height: 56px;
+                            bottom: 4px;
+                            right: 78px;
+                        }
+                    }
+                }
+
+                .two-box {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
